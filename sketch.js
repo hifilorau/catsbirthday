@@ -3,7 +3,7 @@ let randomIndex, logo, y, isWinner, isRunning;
 let selectedTeam;
 let pic2, pic4, pic5, pic6;
 let ghost;
-let initText = "CLICK TO ROLL THEM DICE LOVE."
+let initText = "HAPPY BIRTHDAY LOVER GIRL. WHAT GIFT SHALL YOU?"
 let ghostX;
 function preload() {
   logo = loadImage("bday-box.png")
