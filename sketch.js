@@ -1,4 +1,4 @@
-const TEAMS = ['TRIP TO THE MTNS', 'TRAIN RIDE', 'Bida Manda Date', 'BEACH TRIP'] 
+const TEAMS = ['TRIP TO THE MTNS', 'TRAIN RIDE','A barrage of puppies', 'Bida Manda Date', 'BEACH TRIP', 'Big Gigantic Poos', 'A few corn off the cob', 'An actual viking ship'] 
 let randomIndex, logo, y, isWinner, isRunning;
 let selectedTeam;
 let pic2, pic4, pic5, pic6;
@@ -32,12 +32,16 @@ function setup() {
 function draw() {
   if (isWinner == true) {
    background(random(255), random(255), random(255))
+   fill("yellow")
    image(pic2, width/2, height/2 );
    image(pic4, 235, height/2);
    image(pic6, width -200, height/2 );
     selectedTeam ='11,700 APEX COINS'
       text("QJTKX-D64HQ-H3F2W-CM6RK-R79QZ", width/2, height/3)
-     text("I love you catrina cortes", width/2, height * .75)
+     textSize(12)
+     text("Getting to know you has been the best part of the last 12 years of my life", width/2, height * .75)
+     text("And hopefully the next 12 too", width/2, height * .95)
+     text("I love you catrina cortes", width/2, height -20)
   } else {
     background('yellow')
   }
